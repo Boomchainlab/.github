@@ -1,74 +1,113 @@
-# 🚀 CHONK9K Website Setup (Boomchainlab.com)
+# 🚀 BoomchainLab – Official Organization Hub
 
-A **dual-setup approach** for CHONK9K’s **meme-powered, cyber-chonk** ecosystem!  
+**The Innovation Engine Behind CHONK9K, AGU Token, and Web4 Infrastructure**
 
----
+> _“We don’t break records. We author the next protocol.”_  
+> — David Okeamah, Founder, BoomchainLab
 
-## **🟢 Part 1: WordPress Setup (Quick & Easy)**
-
-This is the **fastest way** to launch **Boomchainlab.com**.  
-
-### ✅ **Step 1: Install WordPress**
-1. **Log in** to your hosting provider (**e.g., Namecheap, SiteGround, Bluehost**)
-2. **Find WordPress Installer** → Click **"Install WordPress"**
-3. **Choose your domain**: `Boomchainlab.com`
-4. **Set up Admin Username & Password**
-5. **Click Install** → Wait for setup completion
+BoomchainLab is the core protocol engineering powerhouse building Web4-native ecosystems, zero-friction claim systems, multi-chain DApps, and smart contract registries.  
+We ship secure, fast, and highly scalable infrastructure — all production-verified and continuously deployed across EVM and Solana.
 
 ---
 
-### ✅ **Step 2: Install a Crypto-Friendly Theme**
-Go to **WordPress Dashboard → Appearance → Themes → Add New**  
+## 🌍 Live Protocol Dashboard
 
-🔹 Recommended themes:  
-- **Crypterio** (Best for crypto/token sites)  
-- **CryptoPress** (Meme-friendly + price widgets)  
-- **Neve + Elementor** (Drag & drop flexibility)  
-- **Astra** (For future Web3 integrations)  
-
-🔹 **Customize Theme:**  
-- **Upload CHONK9K logo**  
-- **Set Cyberpunk Colors:**  
-  - Primary: **Neon Purple** `#8A2BE2`  
-  - Secondary: **Neon Blue** `#00FFFF`  
-  - Accent: **Hot Pink** `#FF007F`  
+| 🧱 Layer | 🔗 Component | ✅ Status | 🌐 URL |
+|---------|--------------|-----------|--------|
+| **Smart Contract** | `boomchainlabs-registry` | ✅ Mainnet (Base) | [View on BaseScan](https://basescan.org/address/0x97293CeAB815896883e8200AEf5a4581a70504b2) |
+| **Token** | `$CHONK9K` on Solana | ✅ Listed | [View on Solscan](https://solscan.io/token/51ey1T4UCFwb8poVBwyiLwwi1KdNTrZ8rSg7kBRmqray) |
+| **DApp** | `agu-token-dapp` | ✅ Live | [Launch Site](https://agu-token-dapp.boomchainlab.com) |
+| **DApp** | `chonk9k-earn-frontend` | ✅ Live | [Launch Site](https://chonk9k-earn-frontend.boomchainlab.com) |
+| **CI/CD** | GitHub Actions → Mailgun | ✅ Active | [CI Pipeline](https://github.com/BoomchainLabs/boomchainlab-ci/actions) |
 
 ---
 
-### ✅ **Step 3: Install Essential Plugins**
-Go to **Plugins → Add New**, install:  
-- **Elementor** (Drag & drop page builder)  
-- **CoinMarketCap API** (Live CHONK9K price tracking)  
-- **WPForms** (For contact forms)  
-- **Yoast SEO** (Google ranking boost)  
+## 📦 Core Repositories
+
+| 📁 Repository | 🔧 Purpose |
+|---------------|------------|
+| [`boomchainlabs-registry`](https://github.com/BoomchainLabs/boomchainlabs-registry) | Smart contract registry with GitHub DID verification |
+| [`chonk9k-earn-frontend`](https://github.com/BoomchainLabs/chonk9k-earn-frontend) | Web4 trivia & reward engine |
+| [`agu-token-dapp`](https://github.com/BoomchainLabs/agu-token-dapp) | Cross-chain trading interface for $AGU |
+| [`boomchainlab-ci`](https://github.com/BoomchainLabs/boomchainlab-ci) | CI/CD pipelines, deploy orchestration |
+| [`wallet-claim-agent`](https://github.com/BoomchainLabs/wallet-claim-agent) | Multi-chain wallet agent + claim gateway (Solana + EVM) |
 
 ---
 
-### ✅ **Step 4: Add Website Pages**
-- **Homepage** → Hero banner, CHONK9K mascot, meme branding  
-- **Tokenomics** → Supply breakdown, staking & liquidity info  
-- **How to Buy** → Step-by-step guide for Solana users  
-- **Roadmap** → Future plans (NFTs, CEX listings, utilities)  
-- **Community** → Links to Twitter, Telegram, Discord  
+## ⚙️ Technical Infrastructure
 
-✅ **Done!** **Boomchainlab.com** is live with a **WordPress-powered CHONK9K site!** 🎉  
-
----
-
-## **🔵 Part 2: React.js + Next.js Web3 Site (Custom, Advanced)**
-
-For **maximum control & performance**, this **Web3-powered version** integrates:  
-- **Solana WalletConnect**  
-- **Live CHONK9K Price Feed**  
-- **Cyberpunk UI with Tailwind CSS**  
+- **Languages**: Solidity, Rust, TypeScript, Python, Go
+- **Frameworks**: Hardhat, Anchor, Next.js, FastAPI
+- **Chains**: Base, Solana, Ethereum
+- **Tooling**: GitHub Actions, Mailgun, TradingView, Docker, GHCR, Postgres
+- **Monitoring**: Slack Hooks, Telegram Bot, Chain Explorers
 
 ---
 
-### ✅ **Step 1: Install React.js + Next.js**
-1️⃣ Install **Node.js** → [Download Here](https://nodejs.org/)  
-2️⃣ Open **Terminal** and run:  
-```sh
-npx create-next-app@latest chonk9k-website
-cd chonk9k-website
-npm install tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+## 🔐 Identity & Notification System
+
+| Role Email | Description |
+|------------|-------------|
+| `dev@boomchainlab.com` | Commits, registry signers, DApp maintainers |
+| `support@boomchainlab.com` | Customer support & feedback |
+| `notify@boomchainlab.com` | Automated CI/CD notifications via Mailgun |
+| `admin@boomchainlab.com` | Infrastructure & access operations |
+
+---
+
+## 🧭 Roadmap Highlights
+
+- ✅ Registry contract with GitHub-signed verification
+- ✅ CI-integrated deployment across Solana + EVM
+- ✅ Wallet agent for claim automation
+- 🔄 Vaults & dynamic permissioning for token graduations
+- 🚀 Web4 documentation suite (launching soon)
+
+---
+
+## 📚 Developer Docs
+
+A full docs portal with interactive code examples, REST API endpoints, contract ABI references, and chain integration tutorials is underway.
+
+> 📍 Coming Soon:  
+[https://boomchainlab.github.io/docs](https://boomchainlab.github.io/docs)
+
+---
+
+## 🤝 Contribution Guidelines
+
+We're open to builders, researchers, and Web4 pioneers.  
+To contribute:
+1. Fork any repository
+2. Follow `.env` and `.secrets.template` structure
+3. Submit a PR to `dev` or `main`
+4. All commits must be signed with a verified DID or organizational email
+
+> 📬 Contact `dev@boomchainlab.com` to request contributor access or submit proposals.
+
+---
+
+## 🧠 Founder’s Note
+
+BoomchainLab is not just building decentralized apps —  
+**we are defining the infrastructure of the next internet.**  
+Web4 isn’t an upgrade. It’s a movement.
+
+_— David Okeamah_  
+Founder & Architect, BoomchainLab
+
+---
+
+## 💼 License
+
+All codebases under BoomchainLab are open-source and MIT-licensed unless otherwise stated.
+
+---
+
+### 🔗 Stay Connected
+
+- 🌐 Official Domain: [https://boomchainlab.com](https://boomchainlab.com)  
+- 🐦 Twitter: [@Chonkpump 9000](https://twitter.com/Chonkpump9000)  
+- 📩 Email: `support@boomchainlab.com`
+
+> 🧬 *We scale. We deploy. We own the next protocol.*
